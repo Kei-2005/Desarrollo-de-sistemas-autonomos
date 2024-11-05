@@ -1,0 +1,70 @@
+#quienes-somos {
+    background-image: url("IMGGG/IMAGENN.png"); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 70px 30px;
+    color: white;
+  }
+  
+  #quienes-somos .overlay {
+    background-color: rgba(175, 255, 255, 0.527);
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  #quienes-somos .content h2 {
+    color: #000000;
+    font-weight: Arial;
+    margin-bottom: 20px;
+  }
+  
+  #quienes-somos .text-content {
+    background-color: rgba(255, 255, 255, 0.726); 
+    padding: 50px;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  
+  #quienes-somos h3 {
+    color: #000000;
+    font-weight: Arial;
+    margin-bottom: 15px;
+  }
+  
+  #quienes-somos p {
+    color: #111111;
+    line-height: 1.6;
+    
+  }
+  
+  #quienes-somos .social-icons {
+    margin-top: 10px;
+  }
+  
+  #quienes-somos .social-icons a {
+    color: #32abe4;
+    font-size: 30px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  #quienes-somos .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    #quienes-somos {
+      padding: 20px;
+    }
+    
+    #quienes-somos .content h2 {
+      font-size: 10px;
+    }
+    
+    #quienes-somos h3 {
+      font-size: 10px;
+    }
+  }
+  
